@@ -65,12 +65,13 @@ section{
     text-transform: uppercase;
     background-color:transparent;
     border: 0.125rem solid var(--primary-color);
-    padding: .375rem 2.875rem;
+    padding: .375rem 1.875rem;
     border-radius: 1.125rem;
     line-height: 1.75rem;
     display: inline-block;
     transition: 0.3s ease-out;
     text-decoration: none;
+    margin-top: 10px;
     
 
 
@@ -157,4 +158,57 @@ P{
 
 
 
+}
+.header_wrapper .navbar-toggler{
+
+
+    border: 0;
+    color: var(--primary-text);
+    line-height: 2;
+}
+
+.header_wrapper .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.header_wrapper .nav-item{
+    margin: 0.625rem;
+}
+.header_wrapper .nav-item .nav-link {
+
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-text);
+    display: inline-block;
+}
+
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link:active{
+
+    color: var(--secondary-text);
+}
+
+.navbar-header-scrolled{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 9999;
+background-color: rgba(255,255,255,.85);
+-webkit-animation: 500ms ease-in-out 0s normal none  1 running fadeIndown;
+animation: 500ms ease-in-out 0s normal none  1 running fadeIndown;
+}
+@keyframes fadeIndown{
+
+    0%{
+
+        top:-30%;
+    }
+    50%{
+        top: -15%
+    }
+    100%{
+        top: 0;
+    }
 }
