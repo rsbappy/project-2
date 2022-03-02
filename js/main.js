@@ -19,5 +19,4 @@ const swiper = new Swiper('.mySwiper', {
     // And if we need scrollbar
    
   });
-
-
+ 

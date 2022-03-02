@@ -245,3 +245,18 @@ animation: 500ms ease-in-out 0s normal none  1 running fadeIndown;
     opacity: 0.5;
     z-index: 0;
 }
+
+.banner_wrapper .swiper-pagination-bullets .swiper-pagination-bullet {
+
+width: .9375rem;
+height: .9375rem;
+background-color:var(--secondary-color);
+border: 0.0625rem solid var(--bg-white);
+}
+
+.banner_wrapper .swiper .silde-caption{
+    height: 100%;
+    position: relative;
+    z-index: 99;
+
+}
