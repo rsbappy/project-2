@@ -54,6 +54,16 @@
 .booking-area{
     padding: 3.125rem 1.875rem;
 }
+
+/* about */
+
+
+.about_wrapper{
+
+    padding-top: 22.375rem;
+}
+
+
 @media(max-width: 767px){
 
  /* custom csss */

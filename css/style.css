@@ -84,7 +84,7 @@ section{
 }
 h1{
 
-    font-size: 3.75rem;
+    font-size: 4.75rem;
     line-height: 4.25rem;
     font-weight: 700;
     color: var(--text-white);
@@ -126,7 +126,7 @@ h6{
 }
 P{
     font-size: 1rem;
-    color: var(--text-white);
+    /* color: var(--text-white); */
     line-height: 1.625rem;
 
 }
@@ -188,7 +188,7 @@ P{
     color: var(--secondary-text);
 } 
 
- .navbar-header-scrolled{
+ .navbar.header-scrolled{
 position: fixed;
 top: 0;
 left: 0;
@@ -272,7 +272,7 @@ color: var(--bg-white);
 .banner_wrapper .swiper .silde-caption h1{
 
     
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
     }
 
 
@@ -283,4 +283,11 @@ color: var(--bg-white);
     padding: 3.125rem 1.875rem;
     z-index: 99;
     position: relative;
+}
+
+
+
+/* ABOUT */
+.about_wrapper{
+    padding-top: 9.375rem ;
 }
