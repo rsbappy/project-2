@@ -10,18 +10,22 @@
     .main-btn{
         font-size: .875rem;
     }
+    .booking-area{
+        padding: 3rem .625rem;
+          
+    
+    }
+    
+    .booking-area .main-btn{
+        padding-left: .3125rem !important; 
+        padding-right: .3125rem !important;
+    }
+
+
+
 }
 
-.booking-area{
-    padding: 3rem .625rem;
-      
 
-}
-
-.booking-area .main-btn{
-    padding-left: .3125rem !important; 
-    padding-right: .3125rem !important;
-}
 
 @media(max-width:991px){
 
@@ -43,25 +47,29 @@
         margin-top: .9375rem;
     }
 
+    .banner_wrapper{
+        height: 25.625rem;
+    
+    }
+    .booking-area{
+        padding: 3.125rem 1.875rem;
+    }
+    
+    /* about */
+    
+    
+    .about_wrapper{
+    
+        padding-top: 22.375rem;
+    }
+    
+
+
+
 
 }
 
 
-.banner_wrapper{
-    height: 25.625rem;
-
-}
-.booking-area{
-    padding: 3.125rem 1.875rem;
-}
-
-/* about */
-
-
-.about_wrapper{
-
-    padding-top: 22.375rem;
-}
 
 
 @media(max-width: 767px){
