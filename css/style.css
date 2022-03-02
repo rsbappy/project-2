@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap');
 
 
 *{
@@ -20,8 +20,8 @@
   --bg-black:#000;
 
 
-  --primary-font: "Poppins",'Sans-serif';
-  --secondary-font: "oswalad",'Sans-serif' ;
+  --primary-font: "Poppins",''Sans-serif'';
+  --secondary-font: "oswlad",''Sans-serif'' ;
     --secondary-text: #caa169;
     --text-white: #fff;
     --text-black : #15151515;
@@ -35,7 +35,6 @@
 body{
 font-family: var(--primary-font);
 background-color:var(--bg-white);
-
 
 }
 
@@ -100,7 +99,7 @@ h3{
     font-weight: 700;
     font-size: 2.25rem;
     color:var(--primary-text);
-    font-family: var(--secondary-color);
+    font-family: var(--secondary-font);
 }
 h3 span{
 
@@ -127,7 +126,7 @@ h6{
 }
 P{
     font-size: 1rem;
-    color: var(--text-black);
+    color: var(--text-white);
     line-height: 1.625rem;
 
 }
@@ -258,5 +257,30 @@ border: 0.0625rem solid var(--bg-white);
     height: 100%;
     position: relative;
     z-index: 99;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
 
+}
+.banner_wrapper .swiper .silde-caption p{
+
+max-width: 37.5rem;
+margin: 10px auto;
+color: var(--bg-white);
+}
+
+.banner_wrapper .swiper .silde-caption h1{
+
+    
+    margin-bottom: 30px;
+    }
+
+
+.booking-area{
+    background:var(--bg-white);
+    box-shadow: 0 .625rem .9375rem 0 rgb(0 0 0 / 10%);
+    margin-top: -4rem;
+    padding: 3.125rem 1.875rem;
+    z-index: 99;
+    position: relative;
 }

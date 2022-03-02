@@ -12,6 +12,17 @@
     }
 }
 
+.booking-area{
+    padding: 3rem .625rem;
+      
+
+}
+
+.booking-area .main-btn{
+    padding-left: .3125rem !important; 
+    padding-right: .3125rem !important;
+}
+
 @media(max-width:991px){
 
         /* custom csss */
@@ -35,6 +46,14 @@
 
 }
 
+
+.banner_wrapper{
+    height: 25.625rem;
+
+}
+.booking-area{
+    padding: 3.125rem 1.875rem;
+}
 @media(max-width: 767px){
 
  /* custom csss */
