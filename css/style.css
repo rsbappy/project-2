@@ -326,7 +326,7 @@ transform: scale3d(1.05, 1.05, 1.05);
     opacity: 0.6;
 }
 
-.rooms_wrapper .room-items .room-items-wrap{
+.rooms_wrapper .room-item-wrap{
     position: absolute;
     left: 1.875rem;
     right: 1.875rem;
@@ -337,10 +337,10 @@ transform: scale3d(1.05, 1.05, 1.05);
 }
 
 .rooms_wrapper .room-items .room-content{
-    border: .125rem solid var(--bg-white);
+    border:.125rem solid var(--bg-white);
     padding:5rem 1.875rem;
     -webkit-transform: scale3d(1.2 , 1.2, 1.2);
-    transform: scale3d(1.2 , 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
     transition: all 500ms ease-in 0s;
     opacity: 0;
 
