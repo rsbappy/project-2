@@ -64,7 +64,9 @@
     }
     
 
-
+.room-items .room-content{
+    padding: 1.875rem;
+}
 
 
 }
