@@ -353,3 +353,19 @@ transform: scale3d(1.05, 1.05, 1.05);
     -webkit-transform: scale3d(1,1,1);
     transform: scale3d(1,1,1);
 }
+
+
+.service-item-wrap{
+
+    background-color:var(--bg-white);
+}
+
+
+.service-menu-area ul li a{
+
+    display: block;
+    margin-bottom: 2.8125rem;
+    font-family: var(--primary-font);
+    text-decoration: none;
+    color: var(--bg-black);
+}
