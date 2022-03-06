@@ -36,6 +36,35 @@
         
     }
 
+    .service-item-wrap .tap-content img{
+        width: 100%;
+
+    }
+
+
+    .service-menu-area ul li a{
+
+
+        margin-bottom: .8215rem;
+        overflow: hidden;
+    }
+
+
+    .service-menu-area ul li:nth-child(1){
+        margin-left: -4.4375rem ;
+    }
+    .service-menu-area ul li:nth-child(2){
+        margin-left: -6.9375rem ;
+    }
+    .service-menu-area ul li:nth-child(3){
+        margin-left: -9.375rem ;
+    }
+    .service-menu-area ul li:nth-child(4){
+        margin-left: -12.8125rem ;
+    }
+
+    
+
 
 
 }
