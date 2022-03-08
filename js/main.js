@@ -56,10 +56,10 @@ const swiper = new Swiper('.mySwiper', {
         }
       },step);
     }
-      counter("count1", 0, 1287, 2000);
-      counter("count2", 100, 500, 2000);
-      counter("count3", 0, 800, 2000);
-      counter("count4", 0, 1000, 2000);
+      counter("count1", 0, 3287, 5000);
+      counter("count2", 100, 4000, 5000);
+      counter("count3", 0, 5000, 5000);
+      counter("count4", 0, 2510, 5000);
 
 
   })

@@ -63,7 +63,9 @@
         margin-left: -12.8125rem ;
     }
 
-    
+    .service-menu-area ul li a h5{
+        margin-bottom: .375rem;
+    }
 
 
 
@@ -123,7 +125,13 @@
     }
 
 
+    .service-menu-area{
+        padding: 1.5rem 0.5rem;
 
+    }
+    .service-menu-area ul li{
+        margin-left: unset !important;
+    }
 
 
 }

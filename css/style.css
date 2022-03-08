@@ -442,10 +442,9 @@ transform: scale3d(1.05, 1.05, 1.05);
 
 .counter h1,
 .counter p{
-    position:absolute;
+    position:relative;
     z-index:3;
     color:var(--text-white);
-    float: left;
 }
 
 
