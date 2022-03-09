@@ -1,6 +1,10 @@
 
+  // Navigation arrows
 
-const swiper = new Swiper('.mySwiper', {
+
+  // And if we need scrollbar
+
+var swiper = new Swiper('.mySwiper', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
@@ -63,3 +67,34 @@ const swiper = new Swiper('.mySwiper', {
 
 
   })
+
+
+    // Optional parameters
+
+
+  
+var swiper = new Swiper(".our-partner", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  loop: true,
+
+    autoplay:{
+delay:2000,
+  },
+  backpoints:{
+    '991':{
+      slidesPerView:5,
+      spaceBetween: 10,
+
+    },
+    '767':{
+      slidesPerView:3,
+      spaceBetween: 10,
+    },
+    '320':{
+      slidesPerView:5,
+      spaceBetween: 10,
+    },
+  },
+ 
+});
