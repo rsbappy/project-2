@@ -77,23 +77,22 @@ var swiper = new Swiper(".our-partner", {
   slidesPerView: 5,
   spaceBetween: 30,
   loop: true,
-
-    autoplay:{
-delay:2000,
+  autoplay:{
+delay: 2000,
   },
-  backpoints:{
-    '991':{
+  backpoints: {
+    '991': {
       slidesPerView:5,
       spaceBetween: 10,
 
     },
-    '767':{
+    '767': {
       slidesPerView:3,
       spaceBetween: 10,
     },
-    '320':{
-      slidesPerView:5,
-      spaceBetween: 10,
+    '320': {
+      slidesPerView:2,
+      spaceBetween: 8,
     },
   },
  
